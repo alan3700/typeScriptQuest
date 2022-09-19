@@ -2,7 +2,6 @@ interface IUser {
     name:string;
     age:number;
 }
-let test:string='';
 const prettyPrintWilder = (users:IUser[]):IUser[] => {
     return users.map((user:IUser) :any  => {
       console.log(`${user.name} is ${user.age} years old`);

@@ -1,5 +1,4 @@
 "use strict";
-let test = '';
 const prettyPrintWilder = (users) => {
     return users.map((user) => {
         console.log(`${user.name} is ${user.age} years old`);
